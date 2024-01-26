@@ -7,11 +7,11 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Mohamed Aziz Elheni",
+  title: "Mohamed Ali Ellili",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Full-Stack Developer | Innovator at the Intersection of Front-End Artistry and Back-End Precision.",
   og: {
-    title: "Mohamed Aziz Elheni Portfolio",
+    title: "Mohamed Ali Ellili Portfolio",
     type: "website",
     url: "https://mohamedazizelheni.github.io/AzizPortfolio",
   },
@@ -19,11 +19,11 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Mohamed Aziz Elheni",
-  logo_name: "Mohamedazizelheni",
-  nickname: "",
+  title: "Mohamed Ali Ellili",
+  logo_name: "MohamedAliEllili",
+  nickname: "Dali",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Greetings! I'm Dali, a dynamic full-stack developer with a passion for crafting end-to-end digital solutions. My expertise spans the spectrum, from creating visually engaging user interfaces to architecting robust server-side systems.",
   resumeLink:
     "https://drive.google.com/file/d/1b4he12425OZTDg9G-s44XuR7lrY8WH1H/view?usp=sharing",
   portfolio_repository: "https://github.com/mohamedazizelheni/AzizPortfolio",
@@ -71,9 +71,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux and Angular ",
+        "⚡ Building responsive website front-end using React , javascript and Angular ",
 
-        "⚡ Creating application backend using Node.js, Express, and Spring Boot",
+        "⚡ Creating application backend using PHP, Python, Node.js, Express, MongoDB, SQL, et REST",
       ],
       softwareSkills: [
         {
@@ -97,6 +97,27 @@ const skills = {
             color: "#CC6699",
           },
         },
+         {
+          skillName: "Bootstrap",
+          fontAwesomeClassname: "simple-icons:Bootstrap",
+          style: {
+            color: "#DD0031",
+          },
+        },
+          {
+          skillName: "PHP",
+          fontAwesomeClassname: "simple-icons:PHP",
+          style: {
+            color: "#CB3837",
+          },
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "simple-icons:Python",
+          style: {
+            color: "#2C8EBB",
+          },
+        },
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
@@ -113,20 +134,7 @@ const skills = {
           },
         },
 
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Symfony",
-          fontAwesomeClassname: "simple-icons:symfony",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
+      
         {
           skillName: "Spring Boot",
           fontAwesomeClassname: "simple-icons:springboot",
@@ -141,50 +149,20 @@ const skills = {
             color: "#DD0031",
           },
         },
+         {
+          skillName: "React.js",
+          fontAwesomeClassname: "simple-icons:React.js",
+          style: {
+            color: "#DD0031",
+          },
+        },
       ],
     },
 
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
+  ,
           },
         },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
-        },
-      ],
-    },
-  ],
-};
+      
 
 // Education Page
 const competitiveSites = {
@@ -193,48 +171,24 @@ const competitiveSites = {
 
 const degrees = {
   degrees: [
+   
     {
-      title: "ESPRIT : Ecole Sup Privée d'Ingénierie et de Technologies",
-      subtitle: "B.Tech. in Software Engineering",
-      logo_path: "logooesprit.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2021 - 2024",
-      descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for the University's Project Ball —an event celebrating academic excellence and the top-tier projects.",
-      ],
-      website_link: "http://esprit.tn",
-    },
-    {
-      title: "École pluridisciplinaire internationale",
-      subtitle: "Preparatory Cycle",
+      title: "Institut Teccart",
+      subtitle: "AEC programmation web et mobile",
       logo_path: "logoepi.png",
       alt_name: "Indiana University Bloomington",
-      duration: "2019 - 2021",
+      duration: "Jan 2023 - 2024",
       descriptions: [
-        "⚡ I have gained a diverse foundation in Math and Technical Sciences through the integrated ICT preparatory cycle.",
+        "⚡ Currently enrolled at Teccart Institute, I am dedicated to advancing my knowledge in web and mobile development.",
         "⚡ Apart from this, I gained key skills in Computer Science and Digital Technologies within an engineering framework.  ",
         "⚡ Cycle honed analytical, problem-solving, and teamwork skills for engineering.",
       ],
-      website_link: "https://www.episup.com/",
+      website_link: "https://www.teccart.qc.ca/",
     },
   ],
 };
 
-const certifications = {
-  certifications: [
-    {
-      title: "JavaScript Algorithms and Data Structures",
-      subtitle: " ",
-      logo_path: "freecodecampi.png",
-      certificate_link:
-        "https://freecodecamp.org/certification/Mohamed_Aziz_Elheni/javascript-algorithms-and-data-structures ",
-      alt_name: "Stanford University",
-      color_code: "#000000",
-    },
-  ],
-};
+
 
 // Experience Page
 const experience = {
